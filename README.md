@@ -11,10 +11,9 @@ Arduino and ESP32 powered FNAF Movie inspired animatronic cupcake with servo-con
 >
 > **Builders:**
 > - Allan Stampe Kristiansen - [@svinedyret](https://twitter.com/svinedyret)
-> - - Storm Dirch Bau Holmgaard
->  
->   - This FNAF Cupcake Animatronic is being built as a collaborative project combining 3D printing, electronics, and programming skills.
->   - 
+> - Storm Dirch Bau Holmgaard
+> - This FNAF Cupcake Animatronic is being built as a collaborative project combining 3D printing, electronics, and programming skills.
+> - 
 
 ## ð Overview
 
