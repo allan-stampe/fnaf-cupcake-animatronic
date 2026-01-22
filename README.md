@@ -6,6 +6,15 @@ Arduino and ESP32 powered FNAF Movie inspired animatronic cupcake with servo-con
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
 > ð¯ **Based on the original design**: This project is inspired by and follows the [FNAF Movie Cupcake V2 by Chaos-Animatronics on Instructables](https://www.instructables.com/FNAF-Movie-Cupcake-V2-Pre-release/). Check out the original guide for additional building tips and reference images!
+>
+> ## 👥 Project Team
+>
+> **Builders:**
+> - Allan Stampe Kristiansen - [@svinedyret](https://twitter.com/svinedyret)
+> - - Storm Dirch Bau Holmgaard
+>  
+>   - This FNAF Cupcake Animatronic is being built as a collaborative project combining 3D printing, electronics, and programming skills.
+>   - 
 
 ## ð Overview
 
