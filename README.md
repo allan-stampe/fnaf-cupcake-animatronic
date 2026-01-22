@@ -99,7 +99,7 @@ fnaf-cupcake-animatronic/
 âââ README.md
 ```
 
-## ð§ Software Setup
+### Software Setup
 
 ### Arduino IDE Setup
 
