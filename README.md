@@ -5,17 +5,17 @@ Arduino and ESP32 powered FNAF Movie inspired animatronic cupcake with servo-con
 ![Project Status](https://img.shields.io/badge/status-in%20development-yellow)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-> ð¯ **Based on the original design**: This project is inspired by and follows the [FNAF Movie Cupcake V2 by Chaos-Animatronics on Instructables](https://www.instructables.com/FNAF-Movie-Cupcake-V2-Pre-release/). Check out the original guide for additional building tips and reference images!
->
-> ## 👥 Project Team
->
-> **Builders:**
-> - Allan Stampe Kristiansen - [@svinedyret](https://twitter.com/svinedyret)
-> - Storm Dirch Bau Holmgaard
-> - This FNAF Cupcake Animatronic is being built as a collaborative project combining 3D printing, electronics, and programming skills.
-> - 
+> **Based on the original design**: This project is inspired by and follows the [FNAF Movie Cupcake V2 by Chaos-Animatronics on Instructables](https://www.instructables.com/FNAF-Movie-Cupcake-V2-Pre-release/). Check out the original guide for additional building tips and reference images!
 
-## ð Overview
+## Project Team
+
+**Builders:**
+- Allan Stampe Kristiansen - [@svinedyret](https://twitter.com/svinedyret)
+- Storm Dirch Bau Holmgaard
+
+This FNAF Cupcake Animatronic is being built as a collaborative project combining 3D printing, electronics, and programming skills.
+
+## Overview
 
 This project brings the iconic cupcake from Five Nights at Freddy's to life as a desktop animatronic featuring:
 
@@ -27,7 +27,7 @@ This project brings the iconic cupcake from Five Nights at Freddy's to life as a
 - Inspired by the FNAF Movie design
 - Bottango-compatible for advanced animation programming
 
-## ð ï¸ Hardware Requirements
+## Hardware Requirements
 
 ### Electronics
 
@@ -66,40 +66,40 @@ This project brings the iconic cupcake from Five Nights at Freddy's to life as a
 - Acrylic paints or spray paint (main colors)
 - Airbrush (recommended for detailed work)
 - Masking tape
-- Clear coat (optional, for protection)a
+- Clear coat (optional, for protection)
 
-## ð Project Structure
+## Project Structure
 
 ```
 fnaf-cupcake-animatronic/
-âââ arduino/
-â   âââ servo_controller/
-â   â   âââ servo_controller.ino
-â   â   âââ config.h
-â   âââ libraries/
-âââ esp32/
-â   âââ eye_controller/
-â   â   âââ eye_controller.ino
-â   â   âââ animations.h
-â   âââ libraries/
-âââ 3d_models/
-â   âââ STL/
-â   âââ design_files/
-âââ docs/
-â   âââ wiring_diagram.png
-â   âââ assembly_guide.md
-â   âââ calibration.md
-â   âââ painting_guide.md
-â   âââ bottango_setup.md
-âââ tests/
-â   âââ servo_test/
-â   âââ neopixel_test/
-âââ .gitignore
-âââ LICENSE
-âââ README.md
+├── arduino/
+│   ├── servo_controller/
+│   │   ├── servo_controller.ino
+│   │   └── config.h
+│   └── libraries/
+├── esp32/
+│   ├── eye_controller/
+│   │   ├── eye_controller.ino
+│   │   └── animations.h
+│   └── libraries/
+├── 3d_models/
+│   ├── STL/
+│   └── design_files/
+├── docs/
+│   ├── wiring_diagram.png
+│   ├── assembly_guide.md
+│   ├── calibration.md
+│   ├── painting_guide.md
+│   └── bottango_setup.md
+├── tests/
+│   ├── servo_test/
+│   └── neopixel_test/
+├── .gitignore
+├── LICENSE
+└── README.md
 ```
 
-### Software Setup
+## Software Setup
 
 ### Arduino IDE Setup
 
@@ -111,7 +111,7 @@ fnaf-cupcake-animatronic/
 ### ESP32 Setup
 
 1. Add ESP32 board support to Arduino IDE
-   - File â Preferences â Additional Board Manager URLs
+   - File → Preferences → Additional Board Manager URLs
    - Add: `https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json`
 2. Install ESP32 board package
 3. Install required libraries:
@@ -139,7 +139,7 @@ If using VS Code with PlatformIO:
 # PlatformIO will auto-detect configuration
 ```
 
-## â¡ Quick Start
+## Quick Start
 
 ### 1. Clone Repository
 
@@ -170,7 +170,7 @@ Follow the painting guide in `/docs/painting_guide.md`:
 
 1. **Sand** all printed parts smooth
 2. **Fill gaps** with putty between large parts
-3. **Prime** (multiple coats: Prime â Sand â Prime)
+3. **Prime** (multiple coats: Prime → Sand → Prime)
 4. **Paint inside** parts black
 5. **Paint outside** parts with main colors
 6. **Detail work** with airbrush for small spots
@@ -212,7 +212,7 @@ Run the servo test sketch to verify all connections:
 # Follow calibration instructions
 ```
 
-## ð¨ Features
+## Features
 
 - **Jaw Movement**: Realistic opening/closing mouth animations
 - **Head Tilt**: Pan and tilt movements for lifelike behavior
@@ -223,7 +223,7 @@ Run the servo test sketch to verify all connections:
 - **Bottango Compatible**: Use professional animation software for complex sequences
 - **RC Control Ready**: Can be adapted for remote control operation
 
-## ð Documentation
+## Documentation
 
 Detailed guides available in `/docs`:
 
@@ -234,27 +234,27 @@ Detailed guides available in `/docs`:
 - [Bottango Setup](docs/bottango_setup.md) - Advanced animation programming
 - [Animation Programming](docs/animations.md) - Create custom animations
 
-## ð¥ Build Process
+## Build Process
 
-### Phase 1: 3D Printing â
+### Phase 1: 3D Printing
 Print all STL files with supports. Eye pieces in white PLA (100% infill).
 
-### Phase 2: Assembly ð
+### Phase 2: Assembly
 Follow assembly guide. Use putty to fill gaps between major parts.
 
-### Phase 3: Painting ð¨
+### Phase 3: Painting
 Sand, prime, paint. Multiple primer coats for smooth finish.
 
-### Phase 4: Electronics â¡
+### Phase 4: Electronics
 Wire servos, Arduino, ESP32, and NeoPixels according to diagram.
 
-### Phase 5: Programming ð»
+### Phase 5: Programming
 Upload Arduino and ESP32 code. Test all servos individually.
 
-### Phase 6: Animation ð­
+### Phase 6: Animation
 Program movements using Bottango or create custom sequences.
 
-## ð¤ Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit pull requests or open issues for:
 
@@ -264,18 +264,18 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 - Documentation updates
 - 3D model refinements
 
-## ð License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## ð Acknowledgments
+## Acknowledgments
 
 - Original design by **Chaos-Animatronics**: [FNAF Movie Cupcake V2 on Instructables](https://www.instructables.com/FNAF-Movie-Cupcake-V2-Pre-release/)
 - **Scott Cawthon** for creating Five Nights at Freddy's
 - The **maker community** for 3D printing resources
 - **Bottango** team for their amazing animation software
 
-## ð¸ Gallery
+## Gallery
 
 _Photos coming soon as project progresses_
 
@@ -283,7 +283,7 @@ _Photos coming soon as project progresses_
 
 Check back here for updates as the build progresses!
 
-## ð Useful Links
+## Useful Links
 
 - [Original Instructables Project](https://www.instructables.com/FNAF-Movie-Cupcake-V2-Pre-release/)
 - [Thingiverse STL Files](https://www.thingiverse.com/) (link to be added)
@@ -292,7 +292,7 @@ Check back here for updates as the build progresses!
 - [ESP32 Documentation](https://docs.espressif.com/projects/arduino-esp32/)
 - [Adafruit NeoPixel Guide](https://learn.adafruit.com/adafruit-neopixel-uberguide)
 
-## ð¬ Contact
+## Contact
 
 Allan Stampe Kristiansen - [@svinedyret](https://twitter.com/svinedyret)
 
@@ -300,10 +300,10 @@ Project Link: [https://github.com/allan-stampe/fnaf-cupcake-animatronic](https:/
 
 ---
 
-**Status**: ð§ Work in Progress - Currently in 3D printing phase
+**Status**: Work in Progress - Currently in 3D printing phase
 
 **Last updated**: January 2026
 
 ---
 
-â­ If you find this project helpful, please consider giving it a star on GitHub!
+If you find this project helpful, please consider giving it a star on GitHub!
