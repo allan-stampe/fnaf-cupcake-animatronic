@@ -1,0 +1,87 @@
+# Arduino/ESP32 specific
+*.elf
+*.hex
+*.bin
+*.map
+*.eep
+*.lss
+*.sym
+
+# Build directories
+build/
+.build/
+*.o
+*.a
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.vscode/.browse.c_cpp.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch
+
+# Arduino IDE
+*.autosave
+*.bak
+*~
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+
+# 3D printing slicing
+*.gcode
+*.3mf
+
+# Compiled Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Documentation builds
+docs/_build/
+site/
+
+# IDE files
+*.sublime-project
+*.sublime-workspace
+.idea/
+*.iml
+
+# Test results
+test_results/
+coverage/
+
+# Secrets (never commit these!)
+secrets.h
+config_private.h
+credentials.h
+wifi_credentials.h
